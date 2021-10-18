@@ -16,118 +16,160 @@
 </head>
 <body>
     <header class="header">
-        <nav class=header-title>
-            <a class="header-logo link" href="/"> <span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-            <ul class="list menu-list">
-                <li>
-                    <a class="menu-link link" href="./index.html">Студия</a>
-                </li>
-                <li>
-                    <a class="menu-link link current" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li>
-                    <a class="menu-link link" href="">Контакты</a>
-                </li>
+        <div class="container header-container">
+            <nav class=header-title>
+                <a class="header-logo link" href="/"> <span class="logo-web">Web</span><span
+                        class="logo-studio">Studio</span></a>
+                <ul class="list menu-list">
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link current" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="list header-connect">
+                <li class="connect-item"><a class="header-mail link" href="mailto:">info@devstudio.com</a></li>
+                <li class="connect-item"><a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="list">
-            <li><a class="header-mail link" href="mailto:">info@devstudio.com</a></li>
-            <li><a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
-        <section class="section-filter">
+        <section class="section-filter section">
+            <div class="container">
             <h1 class="filter" hidden>фильтр</h1>
             <ul class="filter-list list">
-                <li>
+                <li class="filter-item">
                     <button class="filter-btn btn cursor" type="button">Все</button>
                 </li>
-                <li>
+                <li class="filter-item">
                     <button class="filter-btn btn cursor" type="button">Веб-сайты</button>
                 </li>
-                <li>
+                <li class="filter-item"> 
                     <button class="filter-btn btn cursor" type="button">Приложения</button>
                 </li>
-                <li>
+                <li class="filter-item">
                     <button class="filter-btn btn cursor" type="button">Дизайн</button>
                 </li>
-                <li>
+                <li class="filter-item">
                     <button class="filter-btn btn cursor" type="button">Маркетинг</button>
                 </li>
             </ul>
             <ul class="blok-list list">
                 <li class="blok-item">
                     <a>
-                        <img src="images/tehnokrjk.jpg" alt="ноутбук" width="370" />
-                        <h2 class="blok-title">Технокряк</h2>
-                        <p class="blok-text">Веб-сайт</p>
+                        <div class="card-thumb">
+                            <img src="images/tehnokrjk.jpg" alt="ноутбук" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Технокряк</h2>
+                            <p class="blok-text">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/poster.jpg" alt="два баскетболиста" width="370" />
-                        <h2 class="blok-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="blok-text">Дизайн</p>
+                        <div class="card-thumb">
+                            <img src="images/poster.jpg" alt="два баскетболиста" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="blok-text">Дизайн</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/restoran.jpg" alt="рыба" width="370" />
-                        <h2 class="blok-title">Ресторан Seafood</h2>
-                        <p class="blok-text">Приложение</p>
+                        <div class="card-thumb">
+                            <img src="images/restoran.jpg" alt="рыба" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Ресторан Seafood</h2>
+                            <p class="blok-text">Приложение</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/prime.jpg" alt="наушники" width="370" />
-                        <h2 class="blok-title">Проект Prime</h2>
-                        <p class="blok-text">Маркетинг</p>
+                        <div class="card-thumb">
+                            <img src="images/prime.jpg" alt="наушники" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Проект Prime</h2>
+                            <p class="blok-text">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/boxes.jpg" alt="коробки" width="370" />
-                        <h2 class="blok-title">Проект Boxes</h2>
-                        <p class="blok-text">Приложение</p>
+                        <div class="card-thumb">
+                            <img src="images/boxes.jpg" alt="коробки" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Проект Boxes</h2>
+                            <p class="blok-text">Приложение</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/inspiration.jpg" alt="монитор" width="370" />
-                        <h2 class="blok-title">Inspiration has no Borders</h2>
-                        <p class="blok-text">Веб-сайт</p>
+                        <div class="card-thumb">
+                            <img src="images/inspiration.jpg" alt="монитор" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Inspiration has no Borders</h2>
+                            <p class="blok-text">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/limited.jpg" alt="книга" width="370" />
-                        <h2 class="blok-title">Издание Limited Edition</h2>
-                        <p class="blok-text">Дизайн</p>
+                        <div class="card-thumb">
+                            <img src="images/limited.jpg" alt="книга" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Издание Limited Edition</h2>
+                            <p class="blok-text">Дизайн</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/lab.jpg" alt="бирка" width="370" />
-                        <h2 class="blok-title">Проект LAB</h2>
-                        <p class="blok-text">Маркетинг</p>
+                        <div class="card-thumb">
+                            <img src="images/lab.jpg" alt="бирка" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Проект LAB</h2>
+                            <p class="blok-text">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
                 <li class="blok-item">
                     <a>
-                        <img src="images/growing.jpg" alt="набирает текст" width="370" />
-                        <h2 class="blok-title">Growing Business</h2>
-                        <p class="blok-text">Приложение</p>
+                        <div class="card-thumb">
+                            <img src="images/growing.jpg" alt="набирает текст" width="370" />
+                        </div>
+                        <div class="card-content">
+                            <h2 class="blok-title">Growing Business</h2>
+                            <p class="blok-text">Приложение</p>
+                        </div>
                     </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container footer-container">
         <a class="footer-logo link" href="/"><span class="footer-web">Web</span><span class="footer-studio">Studio</span></a>
         <address>
             <ul class="footer-list list">
                 <li class="footer item">
-                    <a class="footer-add link" href="https://goo.gl/maps/WwjzQ2Qkz4vjg3pV9" 
+                    <a class="footer-add link" href="https://goo.gl/maps/WwjzQ2Qkz4vjg3pV9"
                     target="_blank"
                     rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
@@ -135,6 +177,7 @@
                 <li class="footer item"><a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>
